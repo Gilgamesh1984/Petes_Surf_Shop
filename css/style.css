@@ -1,0 +1,52 @@
+.jumbotron {
+    background-image: url("../images/hero.jpg");
+    size: 100% auto;
+    height: 100vh;
+    background-size: auto auto;
+}
+.display-4 {
+    font-size: 84px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.lead {
+    font-size: 67px;
+    font-family: 'Open Sans', sans-serif;
+}
+.intro {
+    font-size: 29px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn {
+    background-color: #0B4451;
+    width: 438px;
+    height: 89px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    align-items: center;
+    border: none;
+}
+h3 {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+.btn-shop {
+    background-color: #0B4451;
+    width: 306px;
+    height: 69px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    border: none;
+    color: #ffffff;
+}
+.card {
+    display: grid;
+    margin: 30px;
+    width: 552px;
+    height: 420px;
+    -ms-grid-column-align: center;
+}
