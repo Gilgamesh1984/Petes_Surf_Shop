@@ -19,13 +19,15 @@
 }
 .btn {
     background-color: #0B4451;
+    display: flex;
     width: 438px;
     height: 89px;
     font-family: 'Open Sans', sans-serif;
     font-size: 29px;
     font-weight: 700;
-    align-items: center;
+    text-align: center;
     border: none;
+    justify-content: center;
 }
 h3 {
     font-weight: 700;
@@ -35,18 +37,25 @@ h3 {
 }
 .btn-shop {
     background-color: #0B4451;
+    display: flex;
     width: 306px;
     height: 69px;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    align-items: center;
+    text-align: center;
+    justify-content: center;
     border: none;
     color: #ffffff;
 }
+.btn-shop:hover {
+    color: white;
+    text-decoration: none;
+}
 .card {
-    display: grid;
+    display: flex;
     margin: 30px;
     width: 552px;
     height: 420px;
-    -ms-grid-column-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
